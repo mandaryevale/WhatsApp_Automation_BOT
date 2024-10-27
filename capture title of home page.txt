@@ -1,0 +1,7 @@
+// Capture the title of the page
+   String  pageTitle = driver.getTitle();
+   logger.info("4. Title is captured");
+            
+// Print the title of amazon home page to the console
+   logger.debug("5. Title of the Amazon home page is : " + pageTitle);
+        	

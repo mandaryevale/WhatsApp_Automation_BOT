@@ -1,0 +1,14 @@
+ // Locate the Amazon Logo
+    WebElement amazonLogo = driver.findElement(By.id("nav-logo-sprites"));
+    logger.info("6. logo finds correctly");
+
+    if (amazonLogo.isDisplayed()) 
+    {
+       //System.out.println("Amazon logo is displayed on the home page.");
+       logger.info("7. Amazon logo is displayed on the home page");
+    } 
+    else 
+    {
+       // System.out.println("Amazon logo is not displayed on the page.");
+       logger.info("8. Amazon logo is not displayed on the home page");
+    }
